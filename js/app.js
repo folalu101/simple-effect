@@ -1,9 +1,9 @@
 $(document).ready(function() {
 
-    $("p").click(function() {
+    $(".clickable").click(function() {
 
-      $(".wall").show();
-      $(".walrus-hidden").hide();
+      $(".wall").toggle();
+      $(".walrus-hidden").toggle();
 
     });
 
